@@ -1,5 +1,10 @@
+import 'package:annimatins/animated_controller_screen.dart';
+import 'package:annimatins/animated_rotation.dart';
 import 'package:annimatins/animation_hide_widget.dart';
 import 'package:annimatins/container_animated.dart';
+import 'package:annimatins/move_animation.dart';
+import 'package:annimatins/my_animated_scale.dart';
+import 'package:annimatins/tween_animation.dart';
 
 import 'package:flutter/material.dart';
 
@@ -19,7 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: WidgetAnimated(),
+      home: TweenAnim()
     );
   }
 }
